@@ -138,24 +138,6 @@ shortfalls:
      and the online the viewing and spending keys.
    * Encrypted storage of the wallet on disk and encrypted communication
    * All running on an encrypted blockchain   
-
-## Software setup
-1. You require two PCs, preferrably Intel i5 or faster. The online machine requires
-   30GB of hard drive space. The internet link should run at 10mbps or faster. 
-   The machines can run Linux, Mac OS X or MS Windows. For this tutorial Linux is used.
-   
-2. You can obtain the software from the official RAB website, RABchain.com:
-   https://RABchain.com/wallets/treasure-chest or a source copy from GitHUB at
-   https://github.com/RABNetwork/RAB 
-   
-   Furthermore, if you do not have a copy of the blockchain, you can download a 
-   bootstrap file from the website too. At the time of writing (January 2023)
-   the file approached 22GB, with the full blockchain at 28GB.
-   The wallet software itself has an option to download this file, but if the
-   transfer gets interrupted you'll have to start from the beginning again. 
-   With a utility like 'wget' or 'curl'you can use the resume option to continue
-   downloading. On a 10mbps link it takes about 4 hours to download.
-   Filename: RAB-bootstrap.tar.gz
         
 4 Online machine
 4.1 Installation
@@ -163,7 +145,7 @@ shortfalls:
    lets continue setting up the online machine
    
    If you've downloaded the Debian Linux install archive, install it as root user:
-   # dpkg -i RAB-qt-ubuntu1804-v5.7.5.deb
+   #  ACHMAN-RAB-ubuntu1804-v5.7.5.deb
    The application binary is installed in /usr/local/bin/RAB-qt
    
   Treasure chest will create two sub directories in your $HOME directory where all 
